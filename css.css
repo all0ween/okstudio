@@ -274,7 +274,8 @@ partie grande image*/
 }
 
 .divPlateforme > a{
-  margin: 20px;
+  margin: 40px;
+  margin-left: 0px;
   font-family: calibri;
   text-align: center;
 }
