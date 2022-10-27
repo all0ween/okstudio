@@ -67,10 +67,12 @@ li:hover{
   z-index: 5;
 }
 li:hover .ulContacts{
-  display: inline-block;
+  display:inline-block;
   position: absolute;
   top: 20px;
   left: 0px;
+  transform: translate(-20%);
+  text-align: center;
   padding: 0px;
   background-color: black;
   opacity: 0.8;
@@ -85,7 +87,7 @@ li:hover .ulContacts{
   color: red;
 }
 .ulContacts a{
-  padding: 15px 30px;
+  padding: 10px 20px;
   font-size: 13px;
   position: relative;
   top: 7px;
@@ -116,19 +118,12 @@ li:hover .ulContacts{
 
 .android{
   display: none;
-  height: 40px;
-  width: 150px;
-  text-align: center;
+  width: 10px;
+  height: 10px;
   position: absolute;
-  top: 5px;
-  right: 5px;
-  background-color: white;
-  font-family: agency FB;
-  font-weight: 1000;
-  font-size: 20px;
-  line-height: 40px;
-  color: black;
-  border-radius: 3px;
+  top: 10px;
+  right: 10%;
+  transform: translate(-50%);
   transition: 0.5s;
 }
 
@@ -444,8 +439,6 @@ partie grande image*/
     min-height: 15%;
   }
 
- 
-
   .rubriques{
     position: relative;
     transform: translate(0,0);
@@ -466,6 +459,12 @@ partie grande image*/
   .divPresentation{
     margin-top: 25%;
   }
+  .txtPresentation{
+    font-size: 15px;
+  }
+  .txtSynopsis{
+    font-size: 15px;
+  }
 
   .grosText{
     margin-top: 40%;
@@ -477,6 +476,10 @@ partie grande image*/
     font-size: 15px;
     width: 100%;
     top: 50%;
+  }
+
+  .participants, .fonctions{
+    font-size: 12px;
   }
 
 
