@@ -318,6 +318,37 @@ partie grande image*/
   letter-spacing: initial;
   z-index: 1;
 }
+
+/*div privacy*/
+
+.divPrivacy{
+  background-color: #111;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10%;
+  margin-bottom: 2%;
+  width: 100%;
+  height: 60px;
+  font-family: papyrus;
+}
+
+.divPrivacy > p{
+  line-height: 150%;
+  text-align: center;
+  color: white;
+  position: relative;
+  margin: auto;
+  font-family: papyrus;
+  width: 50%;
+  font-size: 12px;
+  font-weight: lighter;
+  letter-spacing: initial;
+  z-index: 1;
+}
+.divPrivacy > p > a:hover{
+  color: red;
+}
 /*partie accueil (accueil.html)
 partie grande image*/
 
