@@ -332,7 +332,6 @@ partie grande image*/
   height: 60px;
   font-family: papyrus;
 }
-
 .divPrivacy > p{
   line-height: 150%;
   text-align: center;
@@ -341,7 +340,7 @@ partie grande image*/
   margin: auto;
   font-family: papyrus;
   width: 50%;
-  font-size: 12px;
+  font-size: 15px;
   font-weight: lighter;
   letter-spacing: initial;
   z-index: 1;
